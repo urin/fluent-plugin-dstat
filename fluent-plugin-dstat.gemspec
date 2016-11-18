@@ -3,13 +3,13 @@
 
 Gem::Specification.new do |s|
   s.name = "fluent-plugin-dstat"
-  s.version = "0.3.2"
+  s.version = "0.3.2a"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Shunsuke Mikami"]
-  s.date = "2015-08-15"
-  s.email = "shun0102@gmail.com"
+  s.authors = ["Shunsuke Mikami", "urin"]
+  s.date = "2016-11-18"
+  s.email = "urinkun@gmail.com"
   s.license = "Apache-2.0"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/plugin/test_in_dstat.rb"
   ]
-  s.homepage = "http://github.com/shun0102/fluent-plugin-dstat"
+  s.homepage = "https://github.com/urin/fluent-plugin-dstat/tree/pr16"
   s.rubygems_version = "2.4.5"
   s.summary = "Dstat Input plugin for Fluent event collector"
 
